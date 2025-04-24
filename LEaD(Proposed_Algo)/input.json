@@ -1,0 +1,24 @@
+[
+  {
+    "id": "bs-0",
+    "fnc": {
+      "id": "bs-0_fnc-0",
+      "fogs": [
+        {
+          "id": "bs-0_fog-0"
+        }
+      ]
+    },
+    "devices": [
+      {
+        "id": "bs-0_iot-0",
+        "simple_app": {
+          "id": "bs-0_iot-0_app",
+          "task": {
+            "demand": 320
+          }
+        }
+      }
+    ]
+  }
+]
