@@ -1,22 +1,14 @@
 # Fog Load Balancing
+This project presents a simulation based on our research on Latency and Energy-Aware Secure Load Balancing for Dependent Tasks in IoT-Fog Networks (LEaD). The LEaD model implements an efficient load distribution strategy that balances the workload between base stations (BS) and fog nodes (FNs) for both dependent and independent tasks. To ensure secure and reliable communication among FNs, we employs Shamir’s secret-sharing scheme with a binary offloading mechanism. This approach aims to minimize energy consumption, latency, and outages in a fog network. 
 
-This project is a machine simulation of our research work on load balancing in fog computing. The problem can be framed as minimizing the total latency of IoT data flows, which involves considering two key components:   
-
-- **Traffic Load at Base Stations**: The communication delay incurred due to congestion at the BSs.
-- **Computing Load at Fog Nodes**: The delay caused by the computational workload of fog nodes.
-
-When a BS is overloaded with too many IoT devices, the communication latency increases. Similarly, when a fog node
-is heavily burdened, the computing latency increases. As IoT devices can be dynamically associated with different BSs
-(depending on their coverage areas), the challenge is to find an optimal distribution of devices to BSs and fog nodes
-that minimizes both latencies.
 
 In our work, we consider the load distribution of both dependent and independent tasks on fog nodes, which affect
-the computing latencies if not properly balanced.
+the computing latencies and system energy if not properly balanced.
 
 ## Features
 
 * Load balancing of offloading both dependent and independent tasks.
-* Consider coverage areas of base stations for load balancing.
+
 * Secure fog node authentication at the fog node controller based on Shamir secret sharing scheme.
 
 ## Execution Environment
@@ -67,3 +59,35 @@ Primary useful output of the algorithm is the latency of the fog topology define
 ## Project Architecture
 
 See `architecture.md`.
+
+# References
+[1] S. Azizi, M. Othman and H. Khamfroush, "DECO: A Deadline-Aware and Energy-Efficient Algorithm for Task Offloading in Mobile Edge Computing," in IEEE Systems Journal, vol. 17, no. 1, pp. 952-963, March 2023, doi: 10.1109/JSYST.2022.3185011.
+
+[2] J. Yan, S. Bi, Y. J. Zhang, M. Tao, Optimal task offloading and resource allocation in mobile-edge computing
+with inter-user task dependency, IEEE Transactions on Wireless Communications 19 (1) (2019) 235–250. doi: https://doi.org/10.1109/TWC.2019.2943563
+
+[3] F. Chiti, R. Fantacci, B. Picano, A matching theory framework for tasks offloading in fog computing for IoT
+systems, IEEE Internet of Things Journal 5 (6) (2018) 5089–5096. doi: https://doi.org/10.1109/JIOT.2018.2871251
+
+# Contributors
+
+-> Miss Priyanka Soni
+
+   https://scholar.google.com/citations?user=LZKL3o4AAAAJ&hl=en
+   
+-> Nitin Chaudhary
+
+   https://github.com/nitin2306
+
+-> Manojna K P
+
+   https://github.com/manojnakp
+
+-> Dr. Sourav kanti addya
+
+   https://souravkaddya.in/
+
+
+# Contact
+
+If you have any questions, simply write a mail to sonipriyanka31994(AT)gmail(DOT)com
