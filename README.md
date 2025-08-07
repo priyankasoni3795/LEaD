@@ -1,5 +1,5 @@
 # Fog Load Balancing
-This project presents a simulation based on our research on Latency and Energy-Aware Secure Load Balancing for Dependent Tasks in IoT-Fog Networks (LEaD). The LEaD model implements an efficient load distribution strategy that balances the workload between base stations (BS) and fog nodes (FNs) for both dependent and independent tasks. To ensure secure and reliable communication among FNs, we employs Shamir’s secret-sharing scheme with a binary offloading mechanism. This approach aims to minimize energy consumption, latency, and outages in a fog network. 
+This project presents a simulation based on our research on Latency and Energy-aware load balancing for Dependent and independent tasks in IoT-fog networks (LEaD). The LEaD model implements an efficient load distribution strategy that balances the workload between base stations (BS) and fog nodes (FNs) for both dependent and independent tasks. To ensure efficient task offloading and load distribution among FNs, we employs Multicriteria-based Load Balancing Algorithm (MLBA) integrates a binary offloading strategy with a one-to-many matching process. This approach aims to minimize energy consumption, latency, and outages in a fog network. 
 
 
 In our work, we consider the load distribution of both dependent and independent tasks on fog nodes, which affect
@@ -9,7 +9,7 @@ the computing latencies and system energy if not properly balanced.
 
 * Load balancing of offloading both dependent and independent tasks.
 
-* Secure fog node authentication at the fog node controller based on Shamir secret sharing scheme.
+* Multicriteria-based Load Balancing Algorithm effectively balances computational loads across base stations and FNs, minimizing system latency, energy consumption, and task outage rates.
 
 ## Execution Environment
 
